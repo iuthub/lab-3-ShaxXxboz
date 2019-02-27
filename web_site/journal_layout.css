@@ -1,0 +1,42 @@
+body {
+    background-image: url("https://new.graphicpanic.com/wp-content/uploads/2015/09/teal-mosaic-background.jpg");
+}
+
+div#main {
+    border: 10px white solid;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div#heading {
+    border: 5px #A8F0F0 solid;
+    text-align: right;
+    background-color: #A8F0F0;
+}
+
+div#heading > h2 {
+    font-size: 14pt;
+}
+
+div.note {
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+div.image {
+    float: right;
+    width: 22%;
+}
+
+div.text {
+    float: left;
+    width: 78%;
+}
+
+.date {
+    border-bottom: 2px blue dashed;
+}
